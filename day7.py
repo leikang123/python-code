@@ -91,16 +91,18 @@ for name_2 in names_2 :
          
          
 print("hello"+' '+name_2.title())
-#
+#定义两个用户名
 c_user = ['zhangsan','liyuan','ququ','wuwu']
 n_user = ['leilei','junjun','ququ','yuyu','wuwu']
+// 遍历用户名
 for n_user_2 in n_user :
+    // 用户名是否被使用
     if n_user_2 in c_user :
         print(n_user_2.title()+' '+"己经使用")
     else :
         print(n_user_2.title()+' '+"未使用")
         
-#
+#定义一个数字，并遍历
 number_2 = [1,2,3,4,5,6,7,8,9]
 for number_3 in number_2 :
      if number_3 == 1 :
