@@ -72,6 +72,7 @@ for c,p in cities.items():
     guojia = p['country']
     pop = p['population']
     f = p['fact']
+     
     print("guojia:"+guojia.title())
     print("pop:"+pop.title())
     print("f:"+f.title())
