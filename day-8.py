@@ -10,9 +10,10 @@ print(names_infos)
  
 #words
 words ={'java':'面向对象','c':'面向过程','php':'一种做好的语言','python':'数据分析的语言','julia':'一种科学计算语言'}
-
+# 遍历k
 for word in words.keys():
     print(word)
+# 遍历v
 for word_2 in words.values():
     print(word_2)
 print("\n")
