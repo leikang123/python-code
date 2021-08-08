@@ -63,7 +63,9 @@ for pets_2 in pets :
 print("\n")
 #遍历多个k-v，v里面也有多个k-v,
 cities ={'wuhan':{'country':'china','population':'1000milon','fact':'hero'},'new york':{'country':'USA','population':'1000milon',
-                                            'fact':'ziyou'},'Tony':{'country':'Janpa','population':'1000milon','fact':'lishi'}}
+ 
+                                                                                        'fact':'ziyou'},'Tony':{'country':'Janpa','population':'1000milon','fact':'lishi'}}
+# 遍历k-v字典
 for c,p in cities.items():
     print("City:"+c)
     guojia = p['country']
