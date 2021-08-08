@@ -19,7 +19,7 @@ for word_2 in words.values():
 print("\n")
 for word_3 in sorted(words.keys()):
     print(word_3)
-
+# 排序遍历v
 for word_4 in sorted(words.values()):
     print(word_4)
 #字典遍历方式：1.for key,value in 字典名.items();2.for 变量名 in 字典名.keys()/values();3.排序遍历
