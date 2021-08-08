@@ -53,7 +53,7 @@ pes = [people,people_2,people_3]
 for p in pes :
     print(p)
 print("\n")
-#
+#创建三个字典，然后创建一个列表，判断是否有里面的人
 dogs = {'name':'wawa','age':2,'women':'qq'}
 cats = {'name':'huhu','age':7,'women':'rr'}
 tiger = {'name':'huanangu','age':12,'women':'wu'}
