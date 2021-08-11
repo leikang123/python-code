@@ -1,11 +1,11 @@
 def greet_user():
-    print("leikang")
-    
-    
+    print("leikang")  
 greet_user()
 print("\n")
+#定义一个函数带参数行参数
 def greet_user2(username):
     print("hello"+' '+username.title())
+# 参数实参数，赋值给username
 greet_user2('leikang')
 greet_user2('lk')
 #
