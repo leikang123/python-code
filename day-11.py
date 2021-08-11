@@ -46,7 +46,7 @@ asd = make_album('maike'," Iove you",12)
 make_album('alice',"qingqing")
 make_album('cindy',"stret")
 print(asd)
-#
+#带有循环体的函数
 print("\n")
 def make_album2(singer_name,album_name):
     full_name = singer_name +' '+album_name
