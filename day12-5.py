@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 x_values=[1,3,5,7,9,11,13,15]
 y_values=[1,4,7,9,12,14,16,19]
+# 设置属性
 plt.scatter(x_values,y_values,s=100)
 plt.scatter(2,4,s=200)
 plt.title("my is squers",fontsize=15)
